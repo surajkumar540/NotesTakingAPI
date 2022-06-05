@@ -1,0 +1,117 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:url(bacimg.jpg);
+    background-size:cover;
+}
+.upper-Div{
+    height: 2rem;
+    width: 70%;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+.task{
+    background-color: lightgreen;
+    height: 2.5rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 7rem;
+}
+.complete{
+    background-color: yellow;
+    height: 2.5rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;   
+    border-radius: 7rem;
+}
+.middle-div{
+    background-color: white;
+    height: 1.9rem;
+    width: 70%;
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    border-radius: 7rem;
+}
+
+.addTask{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 20rem;
+    left: 69rem;
+    font-size: 2rem;
+    color: white;
+    background-color:#008080;
+    border-radius: 0.5rem;
+    padding-top: 0.4rem ;
+    text-align: center;
+}
+.input-wrapper{
+    background-color: #2F4F4F;
+    height: 20rem;
+    width: 25rem;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 2rem;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    background-color: lightcyan;
+}
+
+.main-cont{
+    position: absolute;
+    top: 19vh;
+    left: 15vw;
+    background-color: #FFFACD;
+    height: 80vh;
+    width: 70vw;
+    overflow-y: scroll;
+    border-radius: 1rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.fill-cont{
+    width: 100%;
+    display: flex;
+    min-height: 4rem;
+    word-wrap:break-word;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem;
+}
+.namelist{
+    flex: 2;
+}
+
+
+.disclist{
+    flex: 4;
+}
+
+.sizelist{
+    flex: 2;
+}
+
+.fa-trash{
+    color: red;
+}

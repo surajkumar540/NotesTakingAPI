@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(191, 142, 236, 0.849);
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgba(185, 64, 255, 0.445);
+    display: flex;
+    justify-content: space-between;
+    top: 10%;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 5px;
+}
+
+li {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    columns: red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.hero {
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    width: 5px;
+    margin-bottom: 2px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+section {
+    display: contents;
+}
+
+.value li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-input {
+    margin: 5px 1px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    margin: 0 5px;
+}
+
+#add {
+    background-color: rgba(255, 82, 255, 0.89);
+}
+
+#add:active {
+    box-shadow: inset -2px -2px;
+}
+
+#remove {
+    background-color: rgba(255, 0, 0, 0.842);
+}
+
+#remove:active {
+    box-shadow: inset -2px -2px;
+}
+
+#submit {
+    background-color: rgba(10, 216, 10, 0.829);
+}
+
+#submit:active {
+    box-shadow: inset -2px -2px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.value1{
+    background-color: rgba(247, 132, 91, 0.774);
+}
+
+.value {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.submit {
+    text-align: center;
+}

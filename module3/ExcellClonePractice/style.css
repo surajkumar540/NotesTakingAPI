@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-options{
+    border: 0.2px solid;
+    height: 20px;
+}
+.address-content{
+    border: 0.2px solid;
+    height: 18px;
+}
+.cells-content{
+    background-color: aquamarine;
+    border: 0.5px solid;
+    height: 34rem;
+}
+.sheets{
+    border: 0.5px solid;
+    height: 23px;
+}

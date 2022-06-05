@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Property Dealer</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <nav>
+        <img src="logo.png" alt="image1" />
+        <ul class="nav-item">
+            <li><a href="#">About</a> </li>
+            <li><a href="https://github.com/pagalengineer56">Github </a></li>
+            <li><a href="https://drive.google.com/drive/u/1/folders/1A3obRDWom9JtVDEnTopeHEZ_ciY9pkfU">Contact</a> </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="show">
+
+            <div class="hero-input">
+                <label for="property-name">property-name</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="hero-input">
+                <label for="property-desc">property-description</label>
+                <textarea cols="18" rows="2" type="text" id="desc" name="desc"> </textarea>
+            </div>
+
+            <div class="hero-input">
+                <label for="property-size">property-size</label>
+                <input type="text" id="size" name="size">
+            </div>
+        </div>
+
+        <div class="btn">
+            <button onclick="add()" id="add">Add</button>
+            <button onclick="remove()" id="remove">Remove</button>
+
+        </div>
+
+
+        <form action="processForm" method="post">
+            <section id="form">
+                <div class="show-value">
+                    <div class="value">
+                        <ul id="name-list">
+
+                        </ul>
+                    </div>
+                    <div class="value">
+                        <ul id="desc-list">
+
+                        </ul>
+                    </div>
+                    <div class="value">
+                        <ul id="size-list">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit" id="submit">Save</button>
+                </div>
+            </section>
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js"> </script>
+
+</body>
+
+</html> 
