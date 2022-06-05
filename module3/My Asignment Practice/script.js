@@ -25,6 +25,7 @@ let array = [];
 
 //toggle plus icon
 addBtn.addEventListener("click", function () {
+    
     // console.log("clicked");
     if (addBtnFlag) {
         inputWrapper.style.display = "flex";
